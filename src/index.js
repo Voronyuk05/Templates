@@ -1,7 +1,7 @@
 import usersData from './users.json';
 import usersItemTpl from './templates/gallery-item.handlebars'
 const Filter = document.querySelector('.filter-list')
-const list = document.querySelector('.js-gallery')
+const list = document.querySelector('.js-users')
 const filteredUsers = usersData.filter(user => user.age > 0);
 function templateUsers(filteredUsers) {
     const compiledTemplate = usersItemTpl({
