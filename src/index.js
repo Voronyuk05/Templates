@@ -1,5 +1,5 @@
 import usersData from './users.json';
-import usersItemTpl from './templates/gallery-item.handlebars'
+import usersItemTpl from './templates/users-item.handlebars'
 const Filter = document.querySelector('.filter-list')
 const list = document.querySelector('.js-users')
 const filteredUsers = usersData.filter(user => user.age > 0);
